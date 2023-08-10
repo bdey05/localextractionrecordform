@@ -1,0 +1,110 @@
+.inputgroup {
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.inputunit {
+    display: flex;
+    align-items: center;
+    gap: 3%;
+    margin: 5px;
+
+}
+
+.inputheader {
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.inputnum {
+    text-decoration: underline;
+    
+    font-size: 19px;
+}
+
+.input1 {
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.input1, .input2, .inputunit {
+    width: 100%;
+    
+}
+
+.input2 {
+    width: 90%;
+}
+.input1 input, .input2 input {
+    width: 90%;
+}
+
+.inputunit input {
+    width: 100%
+}
+
+.unit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inputheader button{
+    cursor: pointer;
+}
+
+.inputheader button:hover{
+    color: red;
+}
+
+.changepage {
+    float: right;
+    margin-right: 2%;
+    margin-top: 3%;
+    display: flex;
+    gap: 15%;
+}
+
+.changepage button {
+    background-color:  #5dbea3;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.page {
+    display: none;
+}
+
+#formoutput {
+    display: none;
+}
+
+.disabledbtn:hover {
+    cursor: auto;
+}
+
+.disabledbtn i{
+    color: gray;
+}
+
+.addItem {
+    text-align: center;
+}
+
+.addItem button {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(117, 184, 15);
+    margin: 15px;
+}
+
+.addItem button:hover {
+    cursor: pointer;
+
+}

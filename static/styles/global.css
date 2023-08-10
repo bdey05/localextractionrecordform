@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+input, button {
+    all: unset;
+}
+
+body {
+    background-color: #D9D9D9;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+select {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #D9D9D9;
+    cursor: pointer;
+}
+
+option {
+    border-radius: 0px;
+    padding: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input.invalid {
+    background-color: #ffdddd;
+  }
+
+  
+button:disabled,
+button[disabled]{
+    cursor: not-allowed;
+}
